@@ -1,0 +1,11 @@
+mkdir "file name"->creates a new folder
+cd "file name" -> changes directory
+git -> displays useful commands
+git init -> initialises new repository
+ls .git
+touch "file name" -> makes new file 
+git status
+git add . -> adds everything to the staging area
+git add "file name" - adds individual files
+git commit -m "message" --> commits all the changes
+
