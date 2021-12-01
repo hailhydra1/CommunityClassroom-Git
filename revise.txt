@@ -28,5 +28,8 @@ git reset "hash value" -> deletes all the commits made above
 git stash -> throws file into backstage
 git pop -> throws file into staging area
 git stash clear -> CLEARS THE STAGING AREA
+git remote add origin "url of repository" -> 
+git remote -v ->
+git push orogin master -> push the changes
 
 
