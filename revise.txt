@@ -24,5 +24,9 @@ esc -> goes back to command mode
 
 cat "file name" -> displays the content inside the file
 git restore --staged "file name" - thhrows file out of staging area
+git reset "hash value" -> deletes all the commits made above
+git stash -> throws file into backstage
+git pop -> throws file into staging area
+git stash clear -> CLEARS THE STAGING AREA
 
 
