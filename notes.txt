@@ -31,5 +31,12 @@ git stash clear -> CLEARS THE STAGING AREA
 git remote add origin "url of repository" -> 
 git remote -v -> shows repositories
 git push orogin master -> push the changes
+git branch newbranch
+git checkout newbranch
+git checkout main
+git merge newbranch
+git clone "url" -> downloads the folder from git
+git remote add upstream "url" -> url of project from where it was forked
+
 
 
