@@ -9,3 +9,20 @@ git add . -> adds everything to the staging area
 git add "file name" - adds individual files
 git commit -m "message" --> commits all the changes
 
+yay I am in vim
+vi "file name" -> opens vim editor
+i --> nsert mode allows to write text
+esc -> goes back to command mode
+:wq -> save changes and exit
+:q! -> do not save changes and exit
+:set number -> displays line numbers
+: -> do this action
+:w -> write
+:q -> quit
+:q! -> force quit
+/term -> search for term - n to find next
+
+cat "file name" -> displays the content inside the file
+git restore --staged "file name" - thhrows file out of staging area
+
+
