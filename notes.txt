@@ -54,7 +54,9 @@ before creating a new branch make sure THAT YOUR MAIN BRANCH IS UP TO DATE WITH 
 
 git rebase -i "above this url commits will be merged" -> merge multiple commits
 select 's' to merge that commit(squash)
-select 'pick' to select that commit  
+select 'pick' to select that commit
+press esc>:x>asks you to put a message>esc>:x
+multiple commits combined to a single commit successfully  
 
 
 
