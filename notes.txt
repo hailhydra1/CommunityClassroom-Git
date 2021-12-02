@@ -50,6 +50,14 @@ instead of doing this two stepprocess you can also do this...
 
 git pull upstream main
 
+before creating a new branch make sure THAT YOUR MAIN BRANCH IS UP TO DATE WITH UPSTREAM
+
+git rebase -i "above this url commits will be merged" -> merge multiple commits
+select 's' to merge that commit(squash)
+select 'pick' to select that commit  
+
+
+
 
 
 
