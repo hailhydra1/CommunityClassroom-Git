@@ -38,5 +38,21 @@ git merge newbranch
 git clone "url" -> downloads the folder from git
 git remote add upstream "url" -> url of project from where it was forked
 
+one branch can create only one pull request
+therefore you must create a new branch for each pull request
+
+git push origin pranay -f ->force push (repository contsins a commit that you don't have)
+
+git fetch --all --prune -> fetch all changes from upstream to the main branch
+git reset --hard --upstream/main -> merges the fetched changes to main
+
+instead of doing this two stepprocess you can also do this...
+
+git pull upstream main
+
+
+
+
+
 
 
